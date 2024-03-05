@@ -1,5 +1,5 @@
 import React from "react";
-import ToolTip from "../ui/ToolTip";
+import ToolTip from "../common/Tooltip";
 
 const Fundamentals = () => {
   return (

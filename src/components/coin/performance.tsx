@@ -1,6 +1,6 @@
 import React from "react";
-import ProgressBarGradient from "../ui/ProgressBarGradient";
-import Fundamentals from "./Fundamentals";
+import ProgressBarGradient from "../common/ProgressBarGradient";
+import Fundamentals from "./fundamentals";
 
 const Performance = () => {
   return (

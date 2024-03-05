@@ -1,6 +1,5 @@
 import React from "react";
 import tradingImage1 from "@/assets/images/tradingImage1.jpeg";
-import tradingImage2 from "@/assets/images/tradingImage2.jpeg";
 import Image from "next/image";
 import ArrowRight from "@/assets/Arrow - Right.svg";
 

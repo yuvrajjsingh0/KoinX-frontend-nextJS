@@ -1,5 +1,5 @@
 import React from "react";
-import PieChart from "../ui/PieChart";
+import PieChart from "../common/PieChart";
 
 const Tokenomics = () => {
   return (

@@ -1,4 +1,3 @@
-"use client";
 
 import React from "react";
 import { useCurrencyData } from "@/context/CurrencyDataProvider";
@@ -9,13 +8,10 @@ import Charts from "@/components/coin/charts";
 
 export default function CoinPage() {
 
-    const router = useRouter();
-    //console.log(router.query);
-
     return (
         <div className="">
             <Charts />
             <Details />
         </div>
     );
-};
+}

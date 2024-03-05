@@ -1,9 +1,9 @@
-import Performance from "@/components/sections/Performance";
 import React from "react";
-import Sentiment from "./Sentiment";
-import About from "./About";
-import Tokenomics from "./Tokenomics";
-import Team from "./Team";
+import Sentiment from "./sentiment";
+import About from "./about";
+import Tokenomics from "./tokenomics";
+import Performance from "./performance";
+import Team from "./team";
 
 const Details = () => {
   return (

@@ -1,6 +1,6 @@
 import { teamsData } from "@/dummyData/TeamData";
 import React from "react";
-import TeamCard from "../ui/TeamCard";
+import TeamCard from "../common/TeamCard";
 
 const Team = () => {
   return (
