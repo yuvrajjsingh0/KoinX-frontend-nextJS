@@ -4,6 +4,21 @@ import BitcoinLogo from "@/assets/Bitcoin.svg.webp";
 import ArrowVector from "@/assets/ArrowVector.svg";
 import PriceChart from "../common/PriceChart";
 
+const PieChart = () => {
+  return (
+    <div className="w-[200px] h-[200px]">
+      <div
+        className="rounded-full relative flex items-center justify-center w-full h-full bg-[orange]"
+        style={{
+          backgroundImage: "conic-gradient(#0088ff 0% 70%,orange 30% 100%)",
+        }}
+      >
+        <div className=" bg-white w-[70%] h-[67%] rounded-full " />
+      </div>
+    </div>
+  );
+};
+
 const Charts = () => {
   return (
     <div className="container">
@@ -63,4 +78,4 @@ const Charts = () => {
   );
 };
 
-export default Charts;
+export { Charts, PieChart };

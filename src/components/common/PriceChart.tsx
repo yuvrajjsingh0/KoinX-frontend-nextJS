@@ -14,7 +14,7 @@ function TradingViewWidget() {
     script.innerHTML = `
           {
             "autosize": true,
-            "symbol": "NASDAQ:AAPL",
+            "symbol": "BTC",
             "interval": "D",
             "timezone": "Etc/UTC",
             "theme": "light",
