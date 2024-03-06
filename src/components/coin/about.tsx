@@ -66,7 +66,7 @@ const About = () => {
                 </p>
                 <button className="flex py-1 px-4 bg-white rounded-lg items-center gap-2">
                   <p className="text-[14px] font-medium"> Check Now </p>
-                  <Image src={ArrowRight} width={14} />
+                  <Image alt={''} src={ArrowRight} width={14} />
                 </button>
               </div>
             </div>
@@ -84,7 +84,7 @@ const About = () => {
                 </p>
                 <button className="flex py-1 px-4 bg-white rounded-lg items-center gap-2">
                   <p className="text-[14px] font-medium"> Check Now </p>
-                  <Image src={ArrowRight} width={14} />
+                  <Image alt={''} src={ArrowRight} width={14} />
                 </button>
               </div>
             </div>
