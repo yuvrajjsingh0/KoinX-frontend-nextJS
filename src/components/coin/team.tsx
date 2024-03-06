@@ -1,6 +1,7 @@
-import { teamsData } from "@/util/dummyData/TeamData";
+import { teamsData } from "@/util/data/TeamData";
 import React from "react";
 import TeamCard from "../common/TeamCard";
+import TeamMember from "@/util/types/TeamMember";
 
 const Team = () => {
   return (
@@ -15,7 +16,7 @@ const Team = () => {
         </p>
 
         <div className="flex flex-col gap-4">
-          {teamsData.map((item) => (
+          {teamsData.map((item: TeamMember) => (
             <TeamCard item={item} key={item.id} />
           ))}
         </div>

@@ -1,7 +1,7 @@
 import employeeOne from "@/assets/images/employee1.jpeg"
+import TeamMember from "../types/TeamMember"
 
-
-export const teamsData = [
+export const teamsData: TeamMember[] = [
     {
         id:'0',
         name:'John Smith',
