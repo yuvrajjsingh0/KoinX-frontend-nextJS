@@ -29,7 +29,7 @@ export default function RootLayout({ children, params }: Readonly<{
         </div>
         <CurrencyDataProvider>
           <div className="flex flex-col px-[16px] xl:flex-row xl:px-[57px] lg:gap-[20px] ">
-            <div className="flex-1 flex-shrink-0">{children}</div>
+            <div className="xl:max-w-[67%]">{children}</div>
             <div>
               <RightAdv />
               <TrendingCoins />
