@@ -1,4 +1,4 @@
-import { teamsData } from "@/dummyData/TeamData";
+import { teamsData } from "@/util/dummyData/TeamData";
 import React from "react";
 import TeamCard from "../common/TeamCard";
 

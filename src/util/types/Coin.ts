@@ -5,4 +5,5 @@ export default interface Coin{
     rank: string,
     price: string,
     changePerc: number,
+    sparkline?: string,
 }

@@ -31,9 +31,9 @@ const Header = () => {
           className="flex text-grey1 font-semibold gap-[25px] 
                              lg:gap-[32px]"
         >
-          <div>Crypto Taxed</div>
-          <div>Free Tools</div>
-          <div>Resource Center</div>
+          <div className="cursor-pointer">Crypto Taxed</div>
+          <div className="cursor-pointer">Free Tools</div>
+          <div className="cursor-pointer">Resource Center</div>
         </div>
 
         <button

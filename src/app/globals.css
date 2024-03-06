@@ -18,11 +18,15 @@ body{
     @apply border border-t-0 border-x-0;
   }
   .daysButton{
-   @apply hover:bg-[#aacfffc3] hover:text-[#0052cc] text-[#0000008c] text-[10px] px-1 sm:text-[12px] sm:px-2  rounded-lg;
+    @apply hover:bg-[#aacfffc3] hover:text-[#0052cc] text-[#0000008c] text-[10px] px-1 sm:text-[12px] sm:px-2  rounded-lg;
   }
 
   .navDetails{
-   @apply h-[50px] hover:text-[#427dea] py-3  border border-x-0 border-t-0 border-b-0  hover:border-b-2 border-b-[#427dea];
+    @apply h-[50px] hover:text-[#427dea] py-3  border border-x-0 border-t-0 border-b-0  hover:border-b-2 border-b-[#427dea] cursor-pointer;
+  }
+
+  .navDetails.active{
+    @apply h-[50px] text-[#427dea] py-3  border border-x-0 border-t-0 border-b-0  border-b-2 border-b-[#427dea] ;
   }
 
   .container{
