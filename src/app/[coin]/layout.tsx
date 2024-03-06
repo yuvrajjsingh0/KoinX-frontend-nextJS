@@ -4,6 +4,7 @@ import Header from "@/components/common/Header"
 import RightAdv from "@/components/common/RightAdv";
 import CurrencyDataProvider from "@/util/context/CurrencyDataProvider";
 import TrendingCoins from "@/components/coin/trendingcoins";
+import { usePathname } from "next/navigation";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -12,8 +13,9 @@ export const metadata = {
   description: "CryptoCurrency is Fun!",
 };
 
-export default function RootLayout({ children }: Readonly<{
+export default function RootLayout({ children, params }: Readonly<{
     children: React.ReactNode;
+    params: any;
 }>) {
   return (
     <html lang="en" style={{scrollBehavior:'smooth'}}>
@@ -23,7 +25,7 @@ export default function RootLayout({ children }: Readonly<{
       <body className={inter.className}>
         <Header/>
         <div className="p-4 ml-[11px] md:ml-[40px] ">
-          Cryptocurrencies {'>>'} Bitcoin
+          Cryptocurrencies {'>>'} {params.coin.charAt(0).toUpperCase() + params.coin.slice(1)}
         </div>
         <CurrencyDataProvider>
           <div className="flex flex-col px-[16px] xl:flex-row xl:px-[57px] lg:gap-[20px] ">
