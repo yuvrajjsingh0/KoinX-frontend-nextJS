@@ -1,5 +1,5 @@
 import React from "react";
-import KeyEventsCarousel from "../common/KeyEventsCarousel";
+import KeyEventsCarousel from "./KeyEventsCarousel";
 import ToolTip from "../common/Tooltip";
 
 const Sentiment = () => {
