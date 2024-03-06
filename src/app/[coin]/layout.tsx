@@ -13,7 +13,7 @@ export const metadata = {
   description: "CryptoCurrency is Fun!",
 };
 
-export default function RootLayout({ children, params }: Readonly<{
+export default function CoinLayout({ children, params }: Readonly<{
     children: React.ReactNode;
     params: any;
 }>) {
