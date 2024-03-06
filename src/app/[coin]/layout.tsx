@@ -2,7 +2,7 @@ import { Inter } from "next/font/google";
 import "../globals.css";
 import Header from "@/components/common/Header"
 import RightAdv from "@/components/common/RightAdv";
-import CurrencyDataProvider from "@/context/CurrencyDataProvider";
+import CurrencyDataProvider from "@/util/context/CurrencyDataProvider";
 
 const inter = Inter({ subsets: ["latin"] });
 
